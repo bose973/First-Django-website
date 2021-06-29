@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--    <title>Index Home Page</title>-->
+
+<!--</head>-->
+
+<!--<body>-->
+<!--<p>MEi ek Massum sa Bachha HOON</p>-->
+<!--{{Protagonist}} is a pirate in the game{{Game}}-->
+<!--<h1>Welcome to peronal Navigator</h1><br/>-->
+<!--<h2>Your Favourite Buttons are here</h2><br/>-->
+<!--<form action="http://127.0.0.1:8000/father"><input type="submit" value="Father" /></form><br/>-->
+<!--<form action="http://127.0.0.1:8000/mother"><input type="submit" value="Mother" /></form><br/>-->
+<!--<form action="http://127.0.0.1:8000/brother"><input type="submit" value="Brother" /></form><br/>-->
+<!--<form action="http://127.0.0.1:8000/clan"><input type="submit" value="Clan" /></form><br/>-->
+<!--<form action="http://127.0.0.1:8000/surname"><input type="submit" value="Surname" /></form><br/>-->
+<!--</body>-->
+
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Utils</title>
+</head>
+<body>
+<form action='/analyze' method='get'>
+   <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Enter your text here</label>
+  <textarea  class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-check form-check-inline">
+  <input  class="form-check-input" type="checkbox" name="removepunc" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Remove Punctuation</label>
+  </div>
+  <div class="form-check form-check-inline">
+  <input name="upper_text" class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+  <label class="form-check-label" for="inlineCheckbox2">Capitalize all</label>
+</div>
+  <div class="form-check form-check-inline">
+  <input  class="form-check-input" type="checkbox" name="new_line" id="inlineCheckbox3" value="option1">
+  <label class="form-check-label" for="inlineCheckbox3">Remove newline</label>
+  </div>
+  <div class="form-check form-check-inline">
+  <input  class="form-check-input" type="checkbox" name="spacer" id="inlineCheckbox4" value="option1">
+  <label class="form-check-label" for="inlineCheckbox4">Remove Space</label>
+</div>
+  <div class="form-check form-check-inline">
+  <input  class="form-check-input" type="checkbox" name="char_counter" id="inlineCheckbox5" value="option1">
+  <label class="form-check-label" for="inlineCheckbox5">Char Count</label>
+</div>
+  <button type="button" class="btn btn-success">Analyze</button>
+</form>
+</body>
+</html>
